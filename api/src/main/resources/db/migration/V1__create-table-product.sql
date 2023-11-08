@@ -1,5 +1,5 @@
 create table product (
-    id text primary key unique not null,
-    name text not null,
+    id varchar(255) primary key not null,
+    name varchar(50) not null,
     price_in_cents int not null
 );
